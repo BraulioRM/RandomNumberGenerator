@@ -23,10 +23,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button guess =(Button)findViewById(R.id.Guess);
-
-
-
-
     }
 
     public void Guess(View view){
@@ -54,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
 
             message ="Le atinaste!, Felicidades";
         }
-
 
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
 
